@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invoice">
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_settings_power_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:tooltipText="Logout"
+        android:layout_margin="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+
+
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_the_smart_billing_mobile_application"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"/>
+
+    <Button
+        android:id="@+id/btnNewBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/new_bill"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/search_invoice"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        />
+
+    <Button
+        android:id="@+id/btnTotalSell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/total_sale"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

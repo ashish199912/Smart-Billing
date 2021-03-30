@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Smart Billing</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_the_smart_billing_mobile_application"><u>Welcome!</u></string>
+    <string name="new_bill">New bill</string>
+    <string name="search_invoice">Search invoice</string>
+
+
+    <string-array name="payment">
+        <item>Payment Type</item>
+        <item>Online Payment</item>
+        <item>Cash</item>
+    </string-array>
+
+
+    <string-array name="product">
+        <item>Product Type</item>
+        <item>Dimond</item>
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Platinum</item>
+    </string-array>
+
+    <string name="sign_in">Sign In</string>
+    <string name="new_invoice"><u>New Invoice</u></string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_shop_name">Enter Shop Name</string>
+    <string name="enter_invoice_no">Enter Invoice No</string>
+    <string name="print">Print</string>
+    <string name="amount_after_tax">Amount After Tax</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="quantity_in_grams">Quantity In GRAMS</string>
+    <string name="address">Address</string>
+    <string name="phone_91">Phone(+91)</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="sign_in_to_continue"><u>Sign in to continue</u></string>
+    <string name="total_sell">Total Sell</string>
+    <string name="search_invoice1"><u>Search Invoice</u></string>
+    <string name="total_sell0"><u>Total Sell</u></string>
+    <string name="search">Search</string>
+    <string name="registration">Registration</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="submit">Submit</string>
+    <string name="total_sale">Total Sale</string>
+    <string name="print_invoice">print Invoice</string>
+
+</resources>
